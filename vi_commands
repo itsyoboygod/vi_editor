@@ -1,30 +1,30 @@
 	
-	i 		/insert at cursor(goes into insert mode)
-	a 		/write after cursor (goes into insert mode)
-	A		/write at the end of line (goes into insert mode)
-	ESC 		/terminate insert mode
-	u 		/undo insert mode
-	Crl+r		/redo changes	
-	U 		/undo all changes to the entire line
-	o 		/open new line (goes into inser mode)
-	dd		/delete line 
-	3dd		/delete 3 lines
-	D		/delete contents of line after the cursor
-	C		/delete contents of line after the cursor and insert new text
-	dw		/delete word
-	4dw		/delete 4 words
-	cw		/change word
-	x		/delete character at cursor
-	r		/replace character
-	R		/overwrite characteers from cursor onward
-	s 		/substitute one character under cursor continue to insert
-	S		/substitute entire line and begin to insert at beginning of the line
-	~		/change individual character
- 	Shift+zz	/save file and quit
-	:w		/save th file but keep it open 
- 	:q		/quit without saving
-	:wq		/save the file and quit
-	/"string"	/search words/strings/text 
+	i 				/insert at cursor(goes into insert mode)
+	a 				/write after cursor (goes into insert mode)
+	A				/write at the end of line (goes into insert mode)
+	ESC 				/terminate insert mode
+	u 				/undo insert mode
+	Crl+r				/redo changes	
+	U 				/undo all changes to the entire line
+	o 				/open new line (goes into inser mode)
+	dd				/delete line 
+	3dd				/delete 3 lines
+	D				/delete contents of line after the cursor
+	C				/delete contents of line after the cursor and insert new text
+	dw				/delete word
+	4dw				/delete 4 words
+	cw				/change word
+	x				/delete character at cursor
+	r				/replace character
+	R				/overwrite characteers from cursor onward
+	s 				/substitute one character under cursor continue to insert
+	S				/substitute entire line and begin to insert at beginning of the line
+	~				/change individual character
+ 	Shift+zz			/save file and quit
+	:w				/save th file but keep it open 
+ 	:q				/quit without saving
+	:wq				/save the file and quit
+	/"string"			/search words/strings/text 
 	:%s/"string"/"newstring"/gc 	/replace string with permition (c)
 	"first letter string"+Ctrl+p	/autocomplete
 	
